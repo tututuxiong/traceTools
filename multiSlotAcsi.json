@@ -1,0 +1,22 @@
+{
+  "signal":
+  [
+    {"id" : "NRULL1RPT2DLCI_ULL1_PUSCH_HARQ_RPT2_DL_IND","text":["bbUeRef","sfn","slotNo","noOfHarqFeedbacks","harqFeedback","harqProcId"]}, 
+    {"id" : "NR_PDCCH_IND","text":["bbUeRef","sfn","slotNo","dciMsg","dciFormatType"], "DCI": 0},
+    {"id" : "NR_PUSCH_CI_UL_L1_PUSCHRPT2_UL_IND","text":["bbUeRef","sfn","slotNo","ulHarqProcId","postEqSinr","puschTotalRxPsdAvg","isAck"]}
+  ],
+
+  "trace":
+  [
+     {"id" : "ULL1MDBFUNR.79", "text":["bbUeRef", "sfn","slotNo" ,"nrOfHarqBits"]},
+     {"id" : "UPCUEDLNR.187", "exclude":[],"text":["bbUeRef", "sfn","slotNo" ,"HpId"]}
+     
+  ],
+
+  "DCI":[
+    {"bandwidth" : 100, 
+     "version" : 153,
+     "numerology" : 1,
+     "text" : ["sliv", "mcs", "ndi", "hpId", "dai", "PUCCH Res Ind", "PDSCH2Harq FB Ind", "dai_1","CSI Request"]}
+  ]
+}
